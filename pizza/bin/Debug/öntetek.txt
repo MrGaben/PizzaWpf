@@ -1,0 +1,4 @@
+Gyros;300
+Paradicsom;200
+Tejföl;250
+empty;0

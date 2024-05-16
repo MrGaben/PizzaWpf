@@ -1,0 +1,15 @@
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\bin\Debug\pizza.exe.config
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\bin\Debug\pizza.exe
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\bin\Debug\pizza.pdb
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.csproj.AssemblyReference.cache
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\MainWindow.g.cs
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\App.g.cs
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza_MarkupCompile.cache
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza_MarkupCompile.lref
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\MainWindow.baml
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.g.resources
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.Properties.Resources.resources
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.csproj.GenerateResource.cache
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.csproj.CoreCompileInputs.cache
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.exe
+D:\Héja Gábor\Asztalk\2024.04.17\pizza\obj\Debug\pizza.pdb

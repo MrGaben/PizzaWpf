@@ -1,0 +1,34 @@
+﻿<Window x:Class="pizza.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pizza"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="PizzaListBox" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="250" Height="200" SelectionChanged="ImageChange">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="{Binding KepUrl}" Margin="0,0,10,0"/>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Nev}" VerticalAlignment="Center" FontWeight="Bold"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ComboBox x:Name="OntetComboBox" HorizontalAlignment="Left" Margin="317,66,0,0" VerticalAlignment="Top" Width="200"/>
+        <ComboBox x:Name="MeretComboBox" HorizontalAlignment="Left" Margin="317,201,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="DarabszamTextBox" HorizontalAlignment="Left" Margin="570,68,0,0" VerticalAlignment="Top" Width="100" Height="20"/>
+        <Button x:Name="MegrendelemButton" Content="Megrendelem" HorizontalAlignment="Left" Margin="50,300,0,0" VerticalAlignment="Top" Width="100" Click="MegrendelemButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="175,132,0,0" TextWrapping="Wrap" Text="Szalámis Pizza" VerticalAlignment="Top" Width="120" BorderBrush="White" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="175,180,0,0" TextWrapping="Wrap" Text="Extra sajtos Pizza" VerticalAlignment="Top" Width="120" BorderBrush="White" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="175,82,0,0" TextWrapping="Wrap" Text="Margaréta Pizza" VerticalAlignment="Top" Width="120" BorderBrush="White" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="317,27,0,0" TextWrapping="Wrap" Text="Öntet:" VerticalAlignment="Top" Width="100" TextChanged="TextBox_TextChanged" BorderBrush="White" Height="32" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="317,174,0,0" TextWrapping="Wrap" Text="Méret:" VerticalAlignment="Top" Width="100" TextChanged="TextBox_TextChanged" BorderBrush="White" Height="22" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="570,27,0,0" TextWrapping="Wrap" Text="Darab:" VerticalAlignment="Top" Width="100" TextChanged="TextBox_TextChanged" BorderBrush="White" Height="32" IsEnabled="False"/>
+    </Grid>
+
+</Window>
